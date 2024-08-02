@@ -4,7 +4,7 @@ def bubblesort(arr):
             if(arr[i] > arr[i+1]):
                 arr[i],arr[i+1] = arr[i+1],arr[i]
             
-arr = [5,4,3,2,1]
+arr = [10,8,9,6,7]
 print("Original Array : ",arr)
 bubblesort(arr)
 print("Bubble sort : ",arr)
